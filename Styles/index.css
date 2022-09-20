@@ -345,13 +345,21 @@ border-bottom: 3px solid #f9004D;
     opacity: .75;
     line-height: 30px;
 }
+.fa-brands{
+    color: #c6c9d8;
+    margin:0 auto;
+}
 .div-in-li{
-    margin:15px;
-    width:calc(25%-30px);
-    height: 30px;
+    border:2px solid #c6c9d8;
+    padding:15px;
+    border-radius: 100%;
+    margin:5px;
+    transition: 0.5s;
 }
 .div-in-li:hover{
+    transform: translateY(-4px);
     background-color: #f61b10;
+    border-color: #ef0963;
 }
 
 
